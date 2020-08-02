@@ -1,0 +1,18 @@
+.todo-details {
+    .mdc-text-field{
+        + .mdc-text-field{
+            margin-top: 00.5rem;
+        }
+    }
+    .todo-steps {
+        margin: 1rem 0;
+        .todo-step-list {
+            .mdc-list-item {
+                padding: 0;
+                .mdc-checkbox {
+                    margin-right: .5rem;
+                }
+            }
+        }
+    }
+}
